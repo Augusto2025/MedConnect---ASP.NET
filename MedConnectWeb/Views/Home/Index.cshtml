@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Cadastro MedConnect";
+}
+
+<div style="font-family: Arial, sans-serif; background-color: #f4f6f9; padding: 20px; color: #333;">
+    <div style="max-width: 800px; margin: 0 auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <h2 style="color: #0066cc; border-bottom: 2px solid #e0e0e0; padding-bottom: 10px; margin-top: 0;">MedConnect - Painel Administrativo</h2>
+        <p>Módulo de Gestão de Cadastros, Endereços e Contatos</p>
+
+        <fieldset style="border: 1px solid #ccc; border-radius: 6px; padding: 20px; margin-bottom: 20px; background-color: #fafafa;">
+            <legend style="font-weight: bold; color: #0066cc; padding: 0 10px;">Dados Pessoais</legend>
+            <div style="margin-bottom: 15px;">
+                <label style="display: block; margin-bottom: 5px; font-weight: bold;">Nome Completo:</label>
+                <input type="text" placeholder="Digite o nome completo" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" />
+            </div>
+            <div style="display: flex; gap: 15px;">
+                <div style="flex: 1; margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: bold;">CPF:</label>
+                    <input type="text" placeholder="Ex: 12345678901" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" />
+                </div>
+                <div style="flex: 1; margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: bold;">Data de Nascimento:</label>
+                    <input type="date" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;" />
+                </div>
+            </div>
+        </fieldset>
+
+        <div style="text-align: right;">
+            <button type="button" style="background-color: #0066cc; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; font-weight: bold;">Salvar Registro</button>
+        </div>
+    </div>
+</div>
